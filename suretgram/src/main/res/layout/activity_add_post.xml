@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_post"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context="kz.sekeww.suretgram.AddPostActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/press_me"
+        android:id="@+id/imageView"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/messageEditText"
+        android:gravity="center"
+        android:textColorHint="#E3E3E3"
+        android:background="#33ffffff"
+        android:layout_marginBottom="30dp"
+        android:hint="enter message"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postButton"
+        android:padding="10dp"
+        android:text="Post"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:textSize="20sp"
+
+        />
+</LinearLayout>

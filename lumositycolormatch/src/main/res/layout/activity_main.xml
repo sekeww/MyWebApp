@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:padding="12dp"
+            android:id="@+id/timerText"
+            android:text="00:00"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:id="@+id/colur2"
+            android:text="Аты"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:id="@+id/colur1"
+            android:text="@string/text"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="match_parent"
+            android:id="@+id/leftTextView"
+            android:text="RED"
+            android:background="@android:color/holo_blue_dark"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="10dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="match_parent"
+            android:id="@+id/rightTextView"
+            android:text="BLUE"
+            android:background="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A81881"
+            android:layout_marginRight="10dp"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/yesButton"
+            android:text="ИӘ"/>
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A81881"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/noButton"
+            android:text="ЖОҚ"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+
+            android:text="Дұрыс: "
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:id="@+id/correctNum"
+            android:text="0"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:text="Бұрыс: "
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:text="0"
+            android:id="@+id/incorrectNum"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_height="wrap_content" />
+        <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="жалпы жиыны"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:id="@+id/leaderboardButton"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold"/>-->
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    >
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3641402840999818/2382401486">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyWebApp.iml" filepath="$PROJECT_DIR$/MyWebApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auabnb/auabnb.iml" filepath="$PROJECT_DIR$/auabnb/auabnb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crazymathematician/crazymathematician.iml" filepath="$PROJECT_DIR$/crazymathematician/crazymathematician.iml" />
+      <module fileurl="file://$PROJECT_DIR$/findgooglebook/findgooglebook.iml" filepath="$PROJECT_DIR$/findgooglebook/findgooglebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsonparsing/jsonparsing.iml" filepath="$PROJECT_DIR$/jsonparsing/jsonparsing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kundykzhuldyzzhoramal/kundykzhuldyzzhoramal.iml" filepath="$PROJECT_DIR$/kundykzhuldyzzhoramal/kundykzhuldyzzhoramal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-2.4.1/library-2.4.1.iml" filepath="$PROJECT_DIR$/library-2.4.1/library-2.4.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lumositycolormatch/lumositycolormatch.iml" filepath="$PROJECT_DIR$/lumositycolormatch/lumositycolormatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suretgram/suretgram.iml" filepath="$PROJECT_DIR$/suretgram/suretgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wordnik/wordnik.iml" filepath="$PROJECT_DIR$/wordnik/wordnik.iml" />
+    </modules>
+  </component>
+</project>

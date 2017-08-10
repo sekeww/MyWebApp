@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/colorGridBackground"
+>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="40dp"
+        android:id="@+id/textTitle"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="25.09.2016"
+        android:textSize="20dp"
+        android:id="@+id/dateTextView"
+
+        />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/dateTextView"
+        android:fillViewport="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="18dp"
+            android:textColor="@color/textColorPrimary"
+            android:textStyle="italic"
+            android:id="@+id/textDesc"
+            android:layout_below="@+id/textTitle"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="gravity"
+            android:padding="10dp"/>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

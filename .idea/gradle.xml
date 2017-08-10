@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/auabnb" />
+            <option value="$PROJECT_DIR$/crazymathematician" />
+            <option value="$PROJECT_DIR$/findgooglebook" />
+            <option value="$PROJECT_DIR$/jsonparsing" />
+            <option value="$PROJECT_DIR$/kundykzhuldyzzhoramal" />
+            <option value="$PROJECT_DIR$/lib" />
+            <option value="$PROJECT_DIR$/library-2.4.1" />
+            <option value="$PROJECT_DIR$/lumositycolormatch" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/suretgram" />
+            <option value="$PROJECT_DIR$/wordnik" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "742282015596",
+    "firebase_url": "https://admob-app-id-8428935085.firebaseio.com",
+    "project_id": "admob-app-id-8428935085",
+    "storage_bucket": "admob-app-id-8428935085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742282015596:android:3a8c689e1eb9fb74",
+        "android_client_info": {
+          "package_name": "kz.sekeww.lumositycolormatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742282015596-m7rh7gekt5cj8b0f4ugjupij4f38jion.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzTW6iVdGf5G9dfB4m50E40oPTCbqDtRQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
